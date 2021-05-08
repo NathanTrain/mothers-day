@@ -36,6 +36,24 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderRadius: 10,
   },
+  inicio:{
+    color:"white",
+    fontSize: 20,
+    padding: 10,
+    paddingVertical:5,
+  },
+  texto:{
+    color:"white",
+    fontSize: 14,
+    paddingVertical: 5,
+    paddingHorizontal: 20,
+  },
+  agradecimento:{
+    color:"white",
+    fontSize: 18,
+    textAlign:"center",
+    paddingVertical:10,
+  }
 });
 
 export { styles, theme };

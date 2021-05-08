@@ -9,14 +9,16 @@ import * as WebBrowser from "expo-web-browser";
 import { styles, theme } from "./Theme"
 
 const sonText = {
+  "João": {
+    inicio: `Mamãe...`,
+    text: `Texto heyyyy\n  bobooooo`,
+    agradecimento: `Obrigado <3`,
+  },
   "Nathan":{
-    text: ``,
+    inicio: `Mamãe...`,
+    text: `     Texto heyyyy\n     bobooooo`,
     agradecimento: `Obrigado`,
   },
-  "João": {
-    text: ``,
-    agradecimento: `Obrigado <3`,
-  }
 }
 
 function Home({ navigation }) {
