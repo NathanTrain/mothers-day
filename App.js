@@ -10,14 +10,18 @@ import { styles, theme } from "./Theme"
 
 const sonText = {
   "João": {
-    inicio: `Mamãe...`,
-    text: `Texto heyyyy\n  bobooooo`,
-    agradecimento: `Obrigado <3`,
+    inicio: `Querida Mamãe...`,
+    text:
+`    Você é a pessoa mais importante para mim nesse mundo, você é meu tudo, sem você esse planeta não existe.
+    Mãe, você me deu a luz e a sabedoria, todos os sermãos que você me deu era ára p meu próprio bme, para eu entender o que eu estava fazendo de errado e para eu nunca mais fazer.`,
+    agradecimento: `❤ Eu te amo ❤\nAss: João`,
   },
-  "Nathan":{
-    inicio: `Mamãe...`,
-    text: `     Texto heyyyy\n     bobooooo`,
-    agradecimento: `Obrigado`,
+  "Nathan": {
+    inicio: `Mãe...`,
+    text:
+`    Sei que não é muito, sei que não chega a uma fração do que eu e o João gostariamos de te oferecer, mas foi feito com carinho, pensando sempre em você.
+    Para deixar claro: nós dois te amamos muito, mesmo nas brigas e nas irritações, nós te amamos indescritivelmente, e, assim como a Dona Herminia e seus filhos, espero que independente da briga ou da discussão, consigamos sempre ficar juntos, e sempre amando um ao outro.`,
+    agradecimento: `Obrigado por tudo❤\nTe amamos Mil Milhões!`,
   },
 }
 
@@ -40,7 +44,7 @@ function Home({ navigation }) {
           title="Vídeo"
           onPress={() =>
             WebBrowser.openBrowserAsync(
-              "https://www.youtube.com/watch?v=TQUrlSk25EE"
+              "https://youtu.be/S95afvs7oGU"
             )
           }
         />

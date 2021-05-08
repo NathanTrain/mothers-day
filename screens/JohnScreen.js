@@ -17,7 +17,7 @@ function JohnScreen({navigation, route}) {
           containerStyle={{alignSelf:"center", margin:10}}
         />
 
-        <View style={{flex:0.3, justifyContent:"space-evenly"}} >
+        <View>
           <Text style={styles.inicio}>{texto.inicio}</Text>
           <Text style={styles.texto} >{texto.text}</Text>
           <Text style={styles.agradecimento}>{texto.agradecimento}</Text>

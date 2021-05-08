@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     paddingVertical: 5,
     paddingHorizontal: 20,
+    textAlign:"justify"
   },
   agradecimento:{
     color:"white",
